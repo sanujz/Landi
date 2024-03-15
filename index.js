@@ -12,7 +12,7 @@ const client4 = new Discord.Client();
 
 client1.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -28,7 +28,7 @@ client1.on("messageCreate", (message) => {
 });
 
 client1.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -50,7 +50,7 @@ client1.on('messageCreate', (message) => {
 
 client1.on('messageCreate', message => {
   // Check if the message starts with 'addreact' and if the message author is you
-  if (message.content.startsWith('addreact') && message.author.id === '869229454927462400') {
+  if (message.content.startsWith('addreact') && message.author.id === '694166467058466820') {
     const args = message.content.slice('addreact'.length).trim().split(/ +/);
     const user = message.mentions.users.first();
     const emoji = args[1];
@@ -80,7 +80,7 @@ client1.login(process.env.token1);
 
 client2.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-  if (message.author.id === '869229454927462400') {
+  if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -96,7 +96,7 @@ client2.on("messageCreate", (message) => {
 });
 
 client2.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -118,7 +118,7 @@ client2.on('messageCreate', (message) => {
 
 client2.on('messageCreate', message => {
   // Check if the message starts with 'addreact' and if the message author is you
-  if (message.content.startsWith('addreact') && message.author.id === '869229454927462400') {
+  if (message.content.startsWith('addreact') && message.author.id === '694166467058466820') {
     const args = message.content.slice('addreact'.length).trim().split(/ +/);
     const user = message.mentions.users.first();
     const emoji = args[1];
@@ -147,7 +147,7 @@ client2.login(process.env.token2);
 
 client3.on("messageCreate", (message) => {
   if (message.content.startsWith("*spam")) 
-    if (message.author.id === '869229454927462400') {
+    if (message.author.id === '694166467058466820') {
     const args = message.content.slice("*spam".length).trim().split(" ");
     const text = args.slice(0, args.length - 1).join(" ");
     const amount = parseInt(args[args.length - 1]);
@@ -163,7 +163,7 @@ client3.on("messageCreate", (message) => {
 });
 
 client3.on('messageCreate', (message) => {
-  const desiredUserID = '869229454927462400'; // The desired user ID
+  const desiredUserID = '694166467058466820'; // The desired user ID
 
   if (message.content.startsWith('react') && message.author.id === desiredUserID) {
     const args = message.content.slice('react '.length).trim().split(' ');
@@ -185,7 +185,7 @@ client3.on('messageCreate', (message) => {
 
 client3.on('messageCreate', message => {
   // Check if the message starts with 'addreact' and if the message author is you
-  if (message.content.startsWith('addreact') && message.author.id === '869229454927462400') {
+  if (message.content.startsWith('addreact') && message.author.id === '694166467058466820') {
     const args = message.content.slice('addreact'.length).trim().split(/ +/);
     const user = message.mentions.users.first();
     const emoji = args[1];
